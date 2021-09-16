@@ -30,15 +30,17 @@
 
 .info-1{
     background-color: #ff0000;
+    margin-left: 10px;
 }
 
 .info-2{
     background-color: #008000;
+    margin-left: 2px;
 }
 
 /* main content */
 
-/* first gallery */
+/* gallery setup*/
 
 .container1 {
     width: 1400px;
@@ -83,6 +85,8 @@
     text-align: right;
 }
 
+
+/* second grid */
 .container2 {
     width: 1400px;
     margin: 50px auto;
