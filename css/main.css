@@ -17,15 +17,22 @@
 }
 
 .imagebox img {
-    width: 400px;
+    width: 100%;
 }
 
 .imagebox {
     position: relative;
+    width: 400px;
+}
+
+.imagebox .info {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
 }
 
 .discount-box {
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     bottom: 20px;
     font-size: 12px;
@@ -36,8 +43,11 @@
 
 .heart {
     background-color: #fff;
-    width: 10px;
-    padding: 10px;
+    padding: 8px 15px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 28px;
 }
 
 .description-1 {
@@ -45,7 +55,9 @@
 }
 
 .description-2 {
-    position: absolute;
+    /* position: absolute; */
     background-color: #00875a;
-    margin-left: 43px;
+    /* margin-left: 43px; */
 }
+
+
