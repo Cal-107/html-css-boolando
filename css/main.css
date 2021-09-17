@@ -43,7 +43,7 @@
 /* gallery setup*/
 
 .container1 {
-    width: 80%;
+    width: 50%;
     margin: 50px auto;
 }
 
@@ -57,8 +57,25 @@
     position: relative;
 }
 
+.item .second-photo {
+    display: none;
+}
+
+.item:hover .first-photo {
+    display: none;
+}
+
+.item:hover .second-photo {
+    display: block;
+}
+
+.item:hover .heart {
+    color: #ff0000;
+}
+
 .item img {
     width: 100%;
+    display: block;
 }
 
 .discount {
@@ -83,14 +100,4 @@
     font-size: 31px;
     width: 20px;
     text-align: right;
-}
-
-.item.img1{
-    background-image: url(../img/1b.webp);
-    display: block;
-    background-size: cover;
-}
-
-.item:hover {
-    display: none;
 }
