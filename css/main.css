@@ -85,6 +85,15 @@
     text-align: right;
 }
 
+.item.img1{
+    background-image: url(../img/1b.webp);
+    display: block;
+    background-size: cover;
+}
+
+.item:hover.img {
+    display: none;
+}
 
 /* second grid */
 .container2 {
