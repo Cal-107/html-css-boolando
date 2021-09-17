@@ -43,7 +43,7 @@
 /* gallery setup*/
 
 .container1 {
-    width: 1400px;
+    width: 80%;
     margin: 50px auto;
 }
 
@@ -91,12 +91,6 @@
     background-size: cover;
 }
 
-.item:hover.img {
+.item:hover {
     display: none;
-}
-
-/* second grid */
-.container2 {
-    width: 1400px;
-    margin: 50px auto;
 }
